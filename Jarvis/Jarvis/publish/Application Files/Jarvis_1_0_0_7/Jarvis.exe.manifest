@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Jarvis.exe" version="1.0.0.7" publicKeyToken="04ffbb5f27d2360a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Jarvis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Jarvis.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Jarvis.exe" size="61952">
+      <assemblyIdentity name="Jarvis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zLp5FFLNpGx/3dw++FvUdEeVIywK5CZZ3w6DHo40QpY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Jarvis.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VIREN\viren" issuerKeyHash="f7db1e827649ff686c8d117b9ca5ce5adc7fe35e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b7OMH9aNDxUISHcGtRH9lYf46UGIT3Kqz4663eM4Xj8=</DigestValue></Reference></SignedInfo><SignatureValue>gWR8RhvpVA+PkV2x+c5pNXbziD4vAkVgpJ+5QIlLpn6Q4YjIF+b5hMlXhKrKmirFoNhrNiSHdI1mxfS9SlOd83CA2X3K5tLFsFENOlTlAdfwnMVRd5bl61z1dTqj9n0meoZhXAcdr7vj7/DwrxCSSGpncBoK1T+UwNgUYYdxR3c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5K/dGORMe7JCZQvjRnoD+bZ4A7V1D2bNJ8UR1ebYBgYXEktcrAlg/a5JHRz/Im1CuKO2p7W/BEplsn1Luipxgl1ZVztu4NrqQPzW5lXrIDYCTziL9bA7M6ao4cHLrVtMn/FPoyWKAGc+sCNmRbkpdkBY9uFGg0mV8w48ISyfa5k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3f5e38e3ddba8ecfaa724f8841e9f88795fd11b506774808150f8dd61f8cb36f" Description="" Url=""><as:assemblyIdentity name="Jarvis.exe" version="1.0.0.7" publicKeyToken="04ffbb5f27d2360a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VIREN\viren</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uima292ySRMX38PG1Azu2X4qFhoe63fGPsdcQ+O3eSg=</DigestValue></Reference></SignedInfo><SignatureValue>YcO/9GXd29+nEpdLmEM5oNpwoFIymV7uRGXAW0fNcrSbN85RYJlbyp1j+tqXIK++GCyWApxESdPN3dRMcQrrsMDDG/UoUdU4QBNJ2f4SBusRIBvMMxjQzeKTCbd3MyXOBcY/QnsqiMv/rhabxE8ZC0T9lpD9+yazbvg/S8QdNg8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5K/dGORMe7JCZQvjRnoD+bZ4A7V1D2bNJ8UR1ebYBgYXEktcrAlg/a5JHRz/Im1CuKO2p7W/BEplsn1Luipxgl1ZVztu4NrqQPzW5lXrIDYCTziL9bA7M6ao4cHLrVtMn/FPoyWKAGc+sCNmRbkpdkBY9uFGg0mV8w48ISyfa5k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQNeGaMwz8tKhKyLHz2LXwqTANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAVgBJAFIARQBOAFwAdgBpAHIAZQBuMB4XDTE2MTEwNjIxMTcyNVoXDTE3MTEwNzAzMTcyNVowITEfMB0GA1UEAx4WAFYASQBSAEUATgBcAHYAaQByAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5K/dGORMe7JCZQvjRnoD+bZ4A7V1D2bNJ8UR1ebYBgYXEktcrAlg/a5JHRz/Im1CuKO2p7W/BEplsn1Luipxgl1ZVztu4NrqQPzW5lXrIDYCTziL9bA7M6ao4cHLrVtMn/FPoyWKAGc+sCNmRbkpdkBY9uFGg0mV8w48ISyfa5kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBlw+2evjr/tODstIQzvffFZygRnChhL5S4G8bOxJJ9MBJllJJGoVxXFvHm7ltXSIbNZoPO9+oUnZZYOAfTWGeKT7YTKSVvTeKzeArlJJr/PnV0ihaXo4eV0/JEmEVJTJpjOOXifF4UwwPhTH8uYIdq4p8KELk9Ik7IcSvcWdHIhw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
